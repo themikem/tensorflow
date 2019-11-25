@@ -176,6 +176,7 @@ def _header_paths():
       "include/*-linux-gnu",
       "extras/CUPTI/include",
       "include/cuda/CUPTI",
+      "targets/x86_64-linux/include",
   ]
 
 
