@@ -188,6 +188,7 @@ def _library_paths():
       "lib/*-linux-gnu",
       "lib/x64",
       "extras/CUPTI/*",
+      "targets/x86_64-linux/include",
   ]
 
 

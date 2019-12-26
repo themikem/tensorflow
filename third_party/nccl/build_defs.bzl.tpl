@@ -113,7 +113,6 @@ def _device_link_impl(ctx):
             "--cmdline=--compile-only",
             "--link",
             "--compress-all",
-            "--bin2c-path=%s" % bin2c.dirname,
             "--create=%s" % tmp_fatbin.path,
             "--embedded-fatbin=%s" % fatbin_h.path,
         ] + images,
